@@ -1,0 +1,25 @@
+:root {
+    --table-bg: #16213E;
+    --table-header: #1F3A5F;
+    --table-border: #5089C6;
+    --table-text: #E0E8F9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--table-bg);
+    color: var(--table-text);
+}
+
+th, td {
+    border: 1px solid var(--table-border);
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: var(--table-header);
+    color: var(--table-border);
+}
+

@@ -1,0 +1,20 @@
+:root {
+    --link-color: #64B5F6;
+    --link-hover: #82CFFF;
+    --link-active: #5089C6;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
+}
+
+a:active {
+    color: var(--link-active);
+}
