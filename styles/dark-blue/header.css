@@ -1,0 +1,28 @@
+:root {
+    --header-color: #79A7D3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--header-color);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+    border-bottom: 2px solid var(--header-color);
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-style: italic;
+}
+
+h4, h5, h6 {
+    font-size: 1.5rem;
+}
