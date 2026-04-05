@@ -3,7 +3,7 @@ name: Deploy Astro to GitHub Pages
 on:
   push:
     branches:
-      - main  # Trigger deployment on pushes to main branch
+      - main  # Trigger deployment on pushes to main branch :(
 
 jobs:
   build-and-deploy:
